@@ -12,3 +12,11 @@ us = environment.UserSettings()
 us['musicxmlPath'] = '/Applications/MuseScore 3.app'
 ```
 
+## e.g.
+
+```
+python3
+from music21 import *
+c = converter.parse('examples/Leo, I-Nc 34.2.6-2 fol. 30v No. 6 reduction.xml')
+c.show()
+```
